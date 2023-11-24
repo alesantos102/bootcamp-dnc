@@ -161,4 +161,98 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+footer{
+    color: white;
+    width: 100%;
 
+    background-color: var(--azul-dnc);
+    padding: 35px 0px 50px 15px;
+
+    font-family: var(--font-padrao);
+    font-weight: 600;
+}
+
+footer .lineOne{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+footer ul li {
+    margin: 15px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer h5{
+    font-size: 18px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+
+}
+footer .location{
+    margin: 50px;
+    text-align: center ;
+}
+
+footer .lineTwo{
+    margin: 50px 15px 15px 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px)  {
+    #principal{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    #principal #menu{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    #principal #menu a{
+        margin: 5px;
+    }
+    #login button{
+        margin: 0px;
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 33px;
+    }
+    header h2 {
+        font-size: 21px;
+        padding: 0px 20px 0px 20px;
+    }
+    form{
+        width: 98%;
+    }
+    .checkbox-itens{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .checkbox-itens input {
+        margin: 5px;
+    }
+    .checkbox-itens label{
+        margin: 0px;
+    }
+    input[type="checkbox"]{
+        transform: none;
+    }
+    footer .lineOne{
+        display: inline;
+    }
+    footer{
+        padding: 22px 0px 22px 0px;
+    }
+
+}
